@@ -58,14 +58,25 @@ use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         open_mapping = [[<A-1>]],
         autochdir = true,
         hide_numbers = true,
+        direction = 'horizontal',
         size = 10,
   }
-end}
+end
+}
 
 use 'navarasu/onedark.nvim'
 require('onedark').setup {
 	style = 'darker'
 
 }
+
+
+use({
+	"Pocco81/true-zen.nvim",
+	config = function()
+		 require("true-zen").setup {
+		 }
+	end,
+})
 
 end)
