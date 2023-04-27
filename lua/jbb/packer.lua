@@ -56,12 +56,16 @@ use {
 use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup{
         open_mapping = [[<A-1>]],
+        autochdir = true,
+        hide_numbers = true,
+        size = 10,
   }
 end}
 
 use 'navarasu/onedark.nvim'
 require('onedark').setup {
 	style = 'darker'
+
 }
 
 end)
