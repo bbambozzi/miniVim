@@ -12,11 +12,7 @@ return require('packer').startup(function(use)
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
-use 'navarasu/onedark.nvim'
-require('onedark').setup {
-	style = 'darker'
-}
-    use {
+   use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
@@ -56,6 +52,16 @@ use {
   config = function()
     require("nvim-tree").setup {}
   end
+}
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup{
+        open_mapping = [[<A-1>]],
+  }
+end}
+
+use 'navarasu/onedark.nvim'
+require('onedark').setup {
+	style = 'darker'
 }
 
 end)
