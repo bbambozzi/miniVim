@@ -63,13 +63,7 @@ return require('packer').startup(function(use)
         }
     end
     }
-
-    use 'navarasu/onedark.nvim'
-    require('onedark').setup {
-        style = 'darker'
-
-    }
-
+    use 'sainnhe/gruvbox-material'
     use({
         "Pocco81/true-zen.nvim",
         config = function()
