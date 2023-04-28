@@ -63,22 +63,34 @@ return require('packer').startup(function(use)
         }
     end
     }
-    use 'sainnhe/gruvbox-material'
-    use({
-        "Pocco81/true-zen.nvim",
-        config = function()
-            require("true-zen").setup {
-                modes = {
-                    minimalist = {
-                        options = {
-                            number = true,
-                            showcmd = true,
-                            relativenumber = true,
-                        }
-                    }
-                }
-            }
-        end,
-    })
 
+    use {
+  "folke/zen-mode.nvim",
+  config = function()
+    require("toggleterm").setup {
+      direction = "float",
+      on_open = function(term)
+        -- Disable Zen mode when a terminal is opened
+        if not term.bufnr then
+          require("zen-mode").disable()
+        end
+      end,
+      on_close = function(term)
+        -- Re-enable Zen mode when a terminal is closed
+        if not term.bufnr then
+          require("zen-mode").enable()
+        end
+      end,
+    }
+
+    require("zen-mode").setup {
+      window = {
+        list = {
+          { filetype = "toggleterm" },
+        },
+      },
+    }
+  end
+  }
+    use 'sainnhe/gruvbox-material'
 end)

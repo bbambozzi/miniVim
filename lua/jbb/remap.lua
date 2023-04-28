@@ -69,4 +69,4 @@ end
 vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()') -- terminal
 
 -- zenmode
-vim.api.nvim_set_keymap("n", "<leader>zz", ":TZAtaraxis<CR>", {})
+vim.api.nvim_set_keymap("n", "<leader>zz", ":ZenMode<CR>", {})
