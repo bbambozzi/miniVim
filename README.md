@@ -31,7 +31,7 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 |`Open Harpoon Menu`            |***;***          |
 |`Open Harpooned File`|( **;** + _number_)
 
-#### Telescope : Finding make easy!
+#### Telescope: Finding make easy!
 | Action                          | Hotkey                         |
 |-------------------------------|-----------------------------|
 |`Search all files`            |(Space + p + f)          |
