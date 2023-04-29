@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies
-        run: npm install
+        run: npm install prettier
       - name: Run Prettier
         run: npx prettier --write .
       - name: Files are formatted correctly
