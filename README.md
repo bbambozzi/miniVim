@@ -6,8 +6,11 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 # Plugins and hotkeys
 #### Works out of the box, no config needed!
 -- Autopairs enabled.
+
 -- Relative line numbers enabled.
+
 -- Unlimited undo history.
+
 -- Toggleable console with (Alt + 1).
 
 ### Important hotkeys to know
