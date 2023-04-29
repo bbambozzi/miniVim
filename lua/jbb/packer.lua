@@ -106,6 +106,7 @@ use {
     }
   end
   }
+  use { 'jose-elias-alvarez/null-ls.nvim' }
 
     use 'sainnhe/gruvbox-material'
     use 'ThePrimeagen/harpoon'
