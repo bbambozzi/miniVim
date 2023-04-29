@@ -1,9 +1,6 @@
-require('onedark').setup {
-	style = 'darker'
-};
+-- Configure the color scheme using .setup()
+vim.g.gruvbox_material_palette = 'mix'
+vim.g.gruvbox_material_background = 'soft'
+vim.g.gruvbox_material_better_performance = true
+vim.cmd('colorscheme gruvbox-material')
 
--- transparency below
--- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" }) 
-
-require('onedark').load();
