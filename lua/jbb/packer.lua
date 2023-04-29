@@ -1,5 +1,4 @@
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
@@ -14,10 +13,16 @@ return require('packer').startup(function(use)
 
     use {
         'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
+        run = ':TSUpdate',
+        config = function ()
+            require 'nvim-treesitter.configs'.setup {
+                autotag = {
+                    enable = true,
+                }
+            }
+        end
     }
     use('nvim-treesitter/playground')
-
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',
@@ -36,13 +41,18 @@ return require('packer').startup(function(use)
             { 'hrsh7th/nvim-cmp' }, -- Required
             { 'hrsh7th/cmp-nvim-lsp' }, -- Required
             { 'L3MON4D3/LuaSnip' }, -- Required
+            { 'windwp/nvim-ts-autotag' }, -- Optional
+
         }
     }
 
-    use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
-    };
+use {
+  "windwp/nvim-autopairs",
+  config = function()
+    require("nvim-autopairs").setup()
+  end
+}
+
 
     use {
         'nvim-tree/nvim-tree.lua',
