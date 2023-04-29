@@ -5,13 +5,15 @@ Hey! This is my personal config for Neovim -- But it could be yours, too!
 The objective for this config is for it to be minimal yet powerful -- leverage the Vimness!
 # Plugins and hotkeys
 #### Works out of the box, no config needed!
--- Autopairs enabled.
+* Autopairs enabled.
 
--- Relative line numbers enabled.
+* Relative line numbers enabled.
 
--- Unlimited undo history.
+* Unlimited undo history.
 
--- Toggleable console with (Alt + 1).
+* Toggleable console with (Alt + 1).
+
+* Autoformat enabled.
 
 ### Important hotkeys to know
 
