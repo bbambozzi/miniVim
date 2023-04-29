@@ -15,13 +15,18 @@ return require('packer').startup(function(use)
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate',
         config = function ()
+            -- add your treesiter-specific options here!
             require 'nvim-treesitter.configs'.setup {
+                highlight = {
+                        additional_vim_regex_highlighting = false,
+                },
                 autotag = {
                     enable = true,
                 }
             }
         end
     }
+
     use('nvim-treesitter/playground')
     use {
         'VonHeikemen/lsp-zero.nvim',
@@ -92,7 +97,6 @@ use {
         end
       end,
     }
-
     require("zen-mode").setup {
       window = {
         list = {
@@ -102,6 +106,7 @@ use {
     }
   end
   }
+
     use 'sainnhe/gruvbox-material'
     use 'ThePrimeagen/harpoon'
 end)
