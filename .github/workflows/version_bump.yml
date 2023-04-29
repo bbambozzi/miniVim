@@ -1,21 +1,18 @@
-name: Bump Version
-
+# example 1: on push to master
+name: Bump version
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
-  bump-version:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-      - name: Bump Version
-        id: bump_version
-        run: |
-          npm version minor -m "Bump version to %s"
-          echo "::set-output name=new_tag::$(git describe --tags --abbrev=0)"
-      - name: Push Changes
-        run: |
-          git push origin main --tags
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: "0"
+      - name: Bump version and push tag
+        uses: anothrNick/github-tag-action@1.61.0
         env:
           GITHUB_TOKEN: ${{ secrets.BUMP_TOKEN }}
+          WITH_V: true
