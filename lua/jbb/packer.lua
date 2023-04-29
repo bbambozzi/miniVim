@@ -93,4 +93,5 @@ return require('packer').startup(function(use)
   end
   }
     use 'sainnhe/gruvbox-material'
+    use 'ThePrimeagen/harpoon'
 end)
