@@ -1,0 +1,21 @@
+name: Bump Version
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bump Version
+        id: bump_version
+        run: |
+          npm version minor -m "Bump version to %s"
+          echo "::set-output name=new_tag::$(git describe --tags --abbrev=0)"
+      - name: Push Changes
+        run: |
+          git push origin main --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.BUMP_TOKEN }}

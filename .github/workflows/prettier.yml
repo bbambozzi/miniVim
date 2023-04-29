@@ -1,0 +1,21 @@
+name: Prettier
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install prettier
+      - name: Run Prettier
+        run: npx prettier --write .
+      - name: Files are formatted correctly
+        run: npx prettier --check .
