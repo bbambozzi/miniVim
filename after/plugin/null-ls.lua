@@ -3,13 +3,14 @@ local null_ls = require("null-ls")
 local formatting = null_ls.builtins.formatting
 -- local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup({
-	debug = false,
-	sources = {
-		formatting.prettier,
-		formatting.black,
-		formatting.stylua,
-		formatting.clang_format,
-	},
+  debug = false,
+  sources = {
+    formatting.prettier,
+    formatting.black,
+    formatting.stylua,
+    formatting.clang_format,
+  }
+  --[[ Uncomment this code block to enable format-on-save
 	on_attach = function(client, bufnr)
 		if client.supports_method("textDocument/formatting") then
 			vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
@@ -22,4 +23,6 @@ null_ls.setup({
 			})
 		end
 	end,
+
+--]]
 })

@@ -1,4 +1,4 @@
-# JBB-NVIM
+# miniNVIM
 
 Hey! This is my personal config for Neovim -- But it could be yours, too!
 
@@ -16,7 +16,7 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 - Toggleable console with (Alt + 1).
 
-- Autoformat enabled.
+- Minimal, lean, ready to be extended.
 
 ### Important hotkeys to know
 
@@ -26,6 +26,7 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 | `Quicksave`       | (Space + w) |
 | `Quick Exit`      | (Space + q) |
 | `Toggle Terminal` | (Alt + 1)   |
+| `Format File`     | (Space + f) |
 
 #### Harpoon: Quickly move between your most used files.
 
