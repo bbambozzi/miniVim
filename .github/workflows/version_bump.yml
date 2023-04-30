@@ -1,7 +1,6 @@
-# example 1: on push to master
 name: Bump version
 on:
-  push:
+  pull_request:
     branches:
       - main
 jobs:
