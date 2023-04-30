@@ -42,3 +42,5 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 | `Search all files`    | (Space + p + f) |
 | `Search files in Git` | (Space + p + g) |
 | `Grep String `        | (Space + p + s) |
+
+## And more to come!
