@@ -1,2 +1,2 @@
-require('jbb.remap')
-require('jbb.set')
+require('mini.remap')
+require('mini.set')

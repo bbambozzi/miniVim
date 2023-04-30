@@ -1,2 +1,2 @@
-require('jbb')
+require('mini')
 
