@@ -1,16 +1,13 @@
-# example 1: on push to master
 name: Bump version
 on:
-  push:
+  pull_request:
     branches:
       - main
 jobs:
-  build:
+  tag_release:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: "0"
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.61.0
         env:
