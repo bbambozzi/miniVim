@@ -35,8 +35,8 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 | Action                | Hotkey          |
 | --------------------- | --------------- |
-| `Search all files`    | (Space + p + f) |
-| `Search files in Git` | (Space + p + g) |
+| `Search all files`    | (Space + f) |
+| `Search files in Git` | (Space + g) |
 | `Grep String `        | (Space + p + s) |
 
 ## And more to come!
