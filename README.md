@@ -20,13 +20,16 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 ### Important hotkeys to know
 
-| Action            | Hotkey      |
-| ----------------- | ----------- |
-| `Toggle Nvimtree` | (Space + e) |
-| `Quicksave`       | (Space + w) |
-| `Quick Exit`      | (Space + q) |
-| `Toggle Terminal` | (Alt + 1)   |
-| `Format File`     | (Space + f) |
+| Action            | Hotkey        |
+| ----------------- | ------------- |
+| `Toggle Nvimtree` | (Space + e)   |
+| `Quicksave`       | (Space + w)   |
+| `Quick Exit`      | (Space + q)   |
+| `Toggle Terminal` | (Alt + 1)     |
+| `Format File`     | (Space + f)   |
+| `New Tab`         | (Space + t)   |
+| `Change Tab`      | (g + t)       |
+| `Change to N tab` | (_N_ + g + t) |
 
 #### Telescope: Finding make easy!
 
