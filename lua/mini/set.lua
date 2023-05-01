@@ -1,6 +1,6 @@
 
-vim.opt.nu = true
-vim.opt.relativenumber = true
+vim.opt.nu = true -- numbering
+vim.opt.relativenumber = true -- disable relative line numbers here
 
 -- force space indents
 vim.opt.expandtab = true
@@ -9,7 +9,7 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 
 vim.opt.smartindent = true -- always 
-vim.opt.wrap = false
+vim.opt.wrap = false -- disables pesky wrapping
 
 
 vim.opt.swapfile = false
