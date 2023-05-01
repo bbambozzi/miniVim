@@ -36,15 +36,12 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>") -- toggle nvim-treesitter
 
-vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
-end)
-
+vim.keymap.set("n", "<leader>t", "<cmd>tabnew<CR>")
 
 
 vim.keymap.set("n", "<leader>w", "<cmd>w<CR>") -- saving and exitign with leader
-vim.keymap.set("n", "<leader>q", "<cmd>q<CR>")
-vim.keymap.set("n", "<leader>wq", "<cmd>wq<CR>")
+vim.keymap.set("n", "<leader>q", "<cmd>q<CR>") -- exiting
+vim.keymap.set("n", "<leader>wq", "<cmd>wq<CR>") -- save and exit
 
 
 function _G.set_terminal_keymaps()
@@ -62,3 +59,4 @@ vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()') -- terminal
 
 -- zenmode
 vim.api.nvim_set_keymap("n", "<leader>zz", ":ZenMode<CR>", {})
+
