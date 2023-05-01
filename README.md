@@ -1,4 +1,4 @@
-# miniNVIM
+# miniVIM
 
 Hey! This is my personal config for Neovim -- But it could be yours, too!
 
@@ -29,7 +29,6 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 | `Format File`     | (Space + f) |
 
 #### Harpoon: Quickly move between your most used files.
-
 | Action                | Hotkey              |
 | --------------------- | ------------------- |
 | `Add to Harpoon`      | (Space + a)         |
