@@ -20,27 +20,23 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 ### Important hotkeys to know
 
-| Action            | Hotkey      |
-| ----------------- | ----------- |
+| Action            | Hotkey        |
+| ----------------- | ------------- |
 | `Toggle Nvimtree` | (Space + e)   |
-| `Quicksave`       | (Space + w) |
-| `Quick Exit`      | (Space + q) |
-| `Toggle Terminal` | (Alt + 1)   |
-| `Format File`     | (Space + f) |
-
-#### Harpoon: Quickly move between your most used files.
-| Action                | Hotkey              |
-| --------------------- | ------------------- |
-| `Add to Harpoon`      | (Space + a)         |
-| `Open Harpoon Menu`   | **_;_**             |
-| `Open Harpooned File` | ( **;** + _number_) |
+| `Quicksave`       | (Space + w)   |
+| `Quick Exit`      | (Space + q)   |
+| `Toggle Terminal` | (Alt + 1)     |
+| `Format File`     | (Space + f)   |
+| `New Tab`         | (Space + t)   |
+| `Change Tab`      | (g + t)       |
+| `Change to N tab` | (_N_ + g + t) |
 
 #### Telescope: Finding make easy!
 
 | Action                | Hotkey          |
 | --------------------- | --------------- |
-| `Search all files`    | (Space + p + f) |
-| `Search files in Git` | (Space + p + g) |
+| `Search all files`    | (Space + f) |
+| `Search files in Git` | (Space + g) |
 | `Grep String `        | (Space + p + s) |
 
 ## And more to come!
