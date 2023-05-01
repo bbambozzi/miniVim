@@ -76,7 +76,7 @@ return require("packer").startup(function(use)
         open_mapping = [[<A-1>]],
         autochdir = true,
         hide_numbers = true,
-        direction = "horizontal",
+        direction = "float",
         size = 10,
       })
     end,

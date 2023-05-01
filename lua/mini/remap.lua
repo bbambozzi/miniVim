@@ -21,7 +21,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "<leader><leader>", vim.lsp.buf.format) -- space + f to format
+vim.keymap.set("n", "<leader><leader>", vim.lsp.buf.format) -- space twice to format
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz") -- prevs stay centered
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
