@@ -22,7 +22,7 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 | Action            | Hotkey      |
 | ----------------- | ----------- |
-| `Toggle Nvimtree` | (Alt + e)   |
+| `Toggle Nvimtree` | (Space + e)   |
 | `Quicksave`       | (Space + w) |
 | `Quick Exit`      | (Space + q) |
 | `Toggle Terminal` | (Alt + 1)   |
