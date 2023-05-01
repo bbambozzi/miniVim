@@ -22,18 +22,11 @@ The objective for this config is for it to be minimal yet powerful -- leverage t
 
 | Action            | Hotkey      |
 | ----------------- | ----------- |
-| `Toggle Nvimtree` | (Space + e)   |
+| `Toggle Nvimtree` | (Space + e) |
 | `Quicksave`       | (Space + w) |
 | `Quick Exit`      | (Space + q) |
 | `Toggle Terminal` | (Alt + 1)   |
 | `Format File`     | (Space + f) |
-
-#### Harpoon: Quickly move between your most used files.
-| Action                | Hotkey              |
-| --------------------- | ------------------- |
-| `Add to Harpoon`      | (Space + a)         |
-| `Open Harpoon Menu`   | **_;_**             |
-| `Open Harpooned File` | ( **;** + _number_) |
 
 #### Telescope: Finding make easy!
 
