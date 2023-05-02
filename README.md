@@ -46,4 +46,6 @@ You'll be able to extend this config with no issues, and avoid typing out the bo
 | `Search files in Git` | (Space + g) |
 | `Grep String `        | (Space + p + s) |
 
-## And more to come!
+#### Requirements:
+  -- Neovim >= **0.8**
+  -- git
