@@ -9,9 +9,12 @@ You'll be able to extend this config with no issues, and avoid typing out the bo
 
 ## Installation
 
+Requirements:
 * Neovim >= 0.8
 * NPM
 
+Paste this snippet into your terminal and it'll be ready to go.
+Don't worry, it will create a backup at backup_nvim if it finds a previous config!
 ```
 if [ -d ~/.config/nvim ]; then
 mv ~/.config/nvim ~/.config/backup_nvim
