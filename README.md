@@ -1,4 +1,4 @@
-# miniVIM
+# miniVim
 
 Hey! This is my personal config for Neovim -- But it could be yours, too!
 
