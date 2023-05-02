@@ -47,5 +47,5 @@ You'll be able to extend this config with no issues, and avoid typing out the bo
 | `Grep String `        | (Space + p + s) |
 
 #### Requirements:
-  -- Neovim >= **0.8**
-  -- git
+* Neovim >= **0.8**
+* git
