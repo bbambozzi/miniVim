@@ -23,6 +23,11 @@ fi
 git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch
 ```
 
+You can also try it out in Docker if you prefer, by typing:
+```
+sudo docker run -it bbambozzi/minivim
+```
+
 ## Plugins and hotkeys
 
 #### Works out of the box, no config needed!
