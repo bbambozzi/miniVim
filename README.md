@@ -1,17 +1,16 @@
 # miniVim
 
-Hey! This is a Neovim config that's lean, minimal, and ready to be extended.
+Hey! This is a Neovim config that's lean, pre-configured, and ready to be extended.
 
 The objective for this config is to act as a rock-solid base for your own Vim config!
-
-You'll be able to extend this config with no issues, and avoid typing out the boilerplate.
-
 
 ## Installation
 
 Requirements:
 * Neovim >= 0.8
 * NPM
+Recommended:
+* Nerd Font of your choice
 
 Paste this snippet into your terminal and it'll be ready to go.
 Don't worry, it will create a backup at backup_nvim if it finds a previous config!
