@@ -14,7 +14,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  "wbthomason/packer.nvim",
   {
     "nvim-telescope/telescope.nvim",
     tag = "0.1.1",
