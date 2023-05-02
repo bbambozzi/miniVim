@@ -1,16 +1,23 @@
 # miniVim
 
-Hey! This is my personal config for Neovim -- But it could be yours, too!
+Hey! This is a Neovim config that's lean, minimal, and ready to be extended.
 
-The objective for this config is for it to be minimal yet powerful -- leverage the Vimness!
+The objective for this config is to act as a rock-solid base for your own Vim config!
+
+You'll be able to extend this config with no issues, and avoid typing out the boilerplate.
+
 
 # Plugins and hotkeys
 
 #### Works out of the box, no config needed!
 
-- Autopairs enabled.
+- LSP pre-configured.
 
-- Relative line numbers enabled.
+- Auto-formatting pre-configured.
+
+- Autopairs pre-enabled.
+
+- Relative line numbers pre-enabled.
 
 - Unlimited undo history.
 
