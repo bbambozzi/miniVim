@@ -13,8 +13,11 @@ You'll be able to extend this config with no issues, and avoid typing out the bo
 * NPM
 
 ```
-    if [ -d ~/.config/nvim ]; then mv ~/.config/nvim ~/.config/backup_nvim fi
-    git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch
+if [ -d ~/.config/nvim ]; then
+mv ~/.config/nvim ~/.config/backup_nvim
+fi
+
+git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch .
 ```
 
 ## Plugins and hotkeys
