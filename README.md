@@ -17,7 +17,7 @@ if [ -d ~/.config/nvim ]; then
 mv ~/.config/nvim ~/.config/backup_nvim
 fi
 
-git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch .
+git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch
 ```
 
 ## Plugins and hotkeys
