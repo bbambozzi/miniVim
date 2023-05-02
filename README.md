@@ -54,7 +54,7 @@ sudo docker run -it bbambozzi/minivim
 | `Quicksave`       | (Space + w)   |
 | `Quick Exit`      | (Space + q)   |
 | `Toggle Terminal` | (Alt + 1)     |
-| `Format File`     | (Space + f)   |
+| `Format File`     | (Space + Space)   |
 | `New Tab`         | (Space + t)   |
 | `Change Tab`      | (g + t)       |
 | `Change to N tab` | (_N_ + g + t) |
