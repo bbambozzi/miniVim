@@ -9,6 +9,7 @@ The objective for this config is to act as a rock-solid base for your own Vim co
 Requirements:
 * Neovim >= 0.8
 * NPM
+
 Recommended:
 * Nerd Font of your choice
 
