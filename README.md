@@ -7,7 +7,16 @@ The objective for this config is to act as a rock-solid base for your own Vim co
 You'll be able to extend this config with no issues, and avoid typing out the boilerplate.
 
 
-# Plugins and hotkeys
+## Installation
+
+* Neovim >= 0.8
+* NPM
+
+```
+    if [ -d ~/.config/nvim ]; then mv ~/.config/nvim ~/.config/backup_nvim fi git clone https://github.com/bbambozzi/minivim ~/.config/nvim --depth 1 --branch main --single-branch .
+```
+
+## Plugins and hotkeys
 
 #### Works out of the box, no config needed!
 
@@ -46,6 +55,3 @@ You'll be able to extend this config with no issues, and avoid typing out the bo
 | `Search files in Git` | (Space + g) |
 | `Grep String `        | (Space + p + s) |
 
-#### Requirements:
-* Neovim >= **0.8**
-* git
