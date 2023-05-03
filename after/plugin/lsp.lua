@@ -8,7 +8,6 @@ lsp.ensure_installed({
   'pyright',
   'tailwindcss',
   'jsonls',
-  'dockerls',
   'cssls'
 })
 
