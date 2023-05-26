@@ -14,7 +14,7 @@ vim.opt.wrap = false -- disables pesky wrapping
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. ".config/nvim/undodir" -- don't backup, but have a large undo tree
+vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir" -- don't backup, but have a large undo tree
 
 vim.opt.undofile = true
 
