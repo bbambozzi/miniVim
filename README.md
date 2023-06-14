@@ -9,9 +9,11 @@ The objective for this config is to act as a rock-solid base for your own Vim co
 Requirements:
 * Neovim >= 0.8
 * NPM
+* GCC / Clang
 
 Recommended:
 * Nerd Font of your choice
+* Prettier (autoformatting)
 
 Paste this snippet into your terminal and it'll be ready to go.
 Don't worry, it will create a backup at backup_nvim if it finds a previous config!
@@ -53,7 +55,7 @@ sudo docker run -it bbambozzi/minivim
 | `Toggle Nvimtree` | (Space + e)   |
 | `Quicksave`       | (Space + w)   |
 | `Quick Exit`      | (Space + q)   |
-| `Toggle Terminal` | (Alt + 1)     |
+| `Toggle Terminal` | (Space + 1)     |
 | `Format File`     | (Space + Space)   |
 | `New Tab`         | (Space + t)   |
 | `Change Tab`      | (g + t)       |
