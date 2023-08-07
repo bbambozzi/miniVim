@@ -113,7 +113,7 @@ local plugins = {
 		tag = "*",
 		config = function()
 			require("toggleterm").setup({
-				open_mapping = [[<s-tab>]],
+				open_mapping = [[`]],
 				autochdir = true,
 				hide_numbers = true,
 				direction = "float",
